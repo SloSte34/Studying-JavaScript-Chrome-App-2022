@@ -10,7 +10,8 @@ function paintToDo(addedToDo) {
   const makeSpan = document.createElement("span");
   const button = document.createElement("button");
   makeSpan.innerText = addedToDo.text;
-  button.innerText = "Delete Task";
+  button.innerText = "❌";
+  button.classList.add("todo-button");
   button.addEventListener("click", deleteTodo);
   makeList.appendChild(makeSpan);
   makeList.appendChild(button);
