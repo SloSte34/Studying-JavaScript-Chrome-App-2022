@@ -9,8 +9,6 @@ const backgroundImages = [
 const chosenBackgroundImage =
   backgroundImages[Math.floor(Math.random() * backgroundImages.length)];
 
-console.log(chosenBackgroundImage);
-
 const backgroundImage = document.createElement("img");
 
 backgroundImage.src = `/img/${chosenBackgroundImage}`;
