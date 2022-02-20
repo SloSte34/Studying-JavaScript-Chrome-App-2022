@@ -4,6 +4,8 @@ const backgroundImages = [
   "wallpaper-3.jpeg",
   "wallpaper-4.jpeg",
   "wallpaper-5.jpeg",
+  "wallpaper-6.jpeg",
+  "wallpaper-7.jpeg",
 ];
 
 const chosenBackgroundImage =
@@ -11,6 +13,6 @@ const chosenBackgroundImage =
 
 const backgroundImage = document.createElement("img");
 
-backgroundImage.src = `/img/${chosenBackgroundImage}`;
+backgroundImage.src = `img/${chosenBackgroundImage}`;
 
 document.body.appendChild(backgroundImage);
