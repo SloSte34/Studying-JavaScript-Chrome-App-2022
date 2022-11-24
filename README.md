@@ -1,1 +1,5 @@
-# vanilla-javascript-chrome-app-clone-2022-nomadcoders
+# Studying-JavaScript-Chrome-App-2022
+
+Studying Vanilla JavaScript
+
+Chrome App Clone Coding using Vanilla JavaScript
