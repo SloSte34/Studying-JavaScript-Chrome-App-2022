@@ -1,7 +1,7 @@
 function onGeoOk(position) {
   const lat = position.coords.latitude;
   const lon = position.coords.longitude;
-  let WEATHER_API_KEY;
+  const WEATHER_API_KEY = '';
   console.log(WEATHER_API_KEY);
   const weatherUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${WEATHER_API_KEY}&units=metric`;
   fetch(weatherUrl)
