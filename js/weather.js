@@ -1,5 +1,3 @@
-let WEATHER_API_KEY;
-
 function onGeoOk(position) {
   const lat = position.coords.latitude;
   const lon = position.coords.longitude;
